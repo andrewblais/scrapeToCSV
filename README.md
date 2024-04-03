@@ -163,6 +163,8 @@ The country names are stored in a list format, making it easy to retrieve a rand
  of entries found in the CIA World Factbook.
 ```
 
+Project folder **_savedFiles_** contains sample CSV and JSON files created via `main.py`.
+
 ---
 
 ## Created in completing an assignment for Angela Yu's Course:
@@ -211,7 +213,7 @@ Here are some suggestions:
 
 ### My Submission:
 
-Lorem repo link.
+My project is viewable here: https://github.com/andrewblais/scrapeToCSV
 
 ---
 
@@ -221,24 +223,41 @@ Lorem repo link.
 
 **_Write down how you approached the project._**
 
-Lorem ipsum write down how...
+My intial step was to review previous projects and online documenation on the process of
+converting data to csv in Python. Afterwards I looked over earlier lessons and projects
+using Selenium and Beautiful Soup.
+
+I decided also to include functionality to include writing a JSON file as well as the
+CSV.
 
 **_What was hard?_**
 
-Lorem ipsum what was hard...
+The toughest challenge in this project was organizing the scraped data into a data
+structure (Python dictionary) which could be succesfully parsed into a Pandas dataframe.
 
 **_What was easy?_**
 
-Lorem ipsum what was easy...
+The most natural part of creating this project was the basic structure of the Class in
+**_main.py_**. OOP was a tough concept to learn/internalize, but with practice its
+become a lot easier to understand.
 
 **_How might you improve for the next project?_**
 
-Lorem ipsum how might you...
+It might prove useful to write docstrings and descriptive comments as I write the
+code, rather than afterward.
 
 **_What was your biggest learning from today?_**
 
-Lorem ipsum what was your...
+Understanding more about constructing data structures/dictionaries that fit smoothly
+into a Pandas dataframe, and how the data correlates to that in a CSV or JSON file.
 
 **_What would you do differently if you were to tackle this project again?_**
 
-Lorem ipsum what would you...
+I underestimated the difficulty of this project. The workings of Selenium and
+Beautiful Soup, both implementation of the driver and parsing the html, was a bit
+more complicated than I remember. Lots of data types, navigating the HTML elements and
+initially working out the best Selenium modules to import and the most efficient way to
+make use of them.
+
+Slow down, write down and work out difficult problems on paper rather than trying to
+do them in my head or on-screen.
